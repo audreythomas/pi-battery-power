@@ -1,6 +1,8 @@
 # Companion Code to "Battery Power in the Refridgerator"
 
-This is a sixth grade science project that measures battery power over time on a Raspberry Pi
+This is a sixth grade science project that measures battery power over time on a Raspberry Pi.
+
+The code will log a timestamp every 60 seconds and send an email. Once you stop receiving emails, you will know the Raspberry Pi has run out of battery power. You can then check the log file to determine how long the Raspberry Pi was running.
 
 1. Get a free [SendGrid](https://sendgrid.com/) account.
 2. Create a `sendgrid.env` file
