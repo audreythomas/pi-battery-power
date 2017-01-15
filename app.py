@@ -37,7 +37,7 @@ while True:
   log_time = str(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
   message = "The Rasberry Pi is still alive at: %s" % log_time
   # Print the message to the console screen
-  print(messsage)
+  print(message)
   # Write the message to our battery_log.txt file
   write_log(message)
   # Send an email with our message
